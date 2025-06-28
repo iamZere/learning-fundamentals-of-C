@@ -17,5 +17,17 @@ int main(){
         cels = 5.0*(fahr-32.0)/9.0;
         printf("%3.0f %6.1f\n", fahr, cels); // Se muestra por pantalla la tabla
     }
+
+    //Comparacion con estructura while
+    
+    /*fahr = lower;
+
+    while (fahr<=upper){ //Condición Inicial
+        //Codigo ejecutado en cada Iteración
+        cels = 5.0*(fahr-32.0)/9.0;
+        printf("%3.0f %6.1f\n", fahr, cels); // Se muestra por pantalla la tabla
+        fahr += step;
+    }*/
+
     return 0;
 }
