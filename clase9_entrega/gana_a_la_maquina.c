@@ -6,7 +6,6 @@ int main() {
     int player, bot, life;
     player = bot = 0;
     life = 10;
-
     srand(time(NULL));
     char rand_c = (rand() % 26) + 97; // Letra misteriosa entre 'a' y 'z'
 
